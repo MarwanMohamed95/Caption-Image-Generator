@@ -11,16 +11,16 @@ In this project I implemented image caption generator that takes an input image 
     2. Retrieving the data (Images and Desctiption Captions)
     3. Defining the Pathes variables
     4. Preparing the images
-    * 4.1. Defining the model
-    * 4.2. Extracting the features from the images
+        4.1. Defining the model
+        4.2. Extracting the features from the images
     5. Preparing the Description Captions text
-    * 5.1. Loading the captions of all images
-    * 5.2. Creating the dictionary of images-captions pairs
-    * 5.3. Cleaning the descriptions
+        5.1. Loading the captions of all images
+        5.2. Creating the dictionary of images-captions pairs
+        5.3. Cleaning the descriptions
     6. Preparing the training data (features and description captions)
     7. Tokenization
-    * 7.1. Creating the training corpus
-    * 7.2. Creaing the tokenizer object to map each word to number
+        7.1. Creating the training corpus
+        7.2. Creaing the tokenizer object to map each word to number
     8. Preparing the validation data: (features and description)
     9. Creating the data generator
     10. Defining the model

@@ -1,7 +1,7 @@
 
 # **Image Caption Generator** 
 
-In this project I will implement image caption generator that takes an input image and generate a caption that describes the image.
+In this project I implemented image caption generator that takes an input image and generate a caption that describes the image.
 - First we will extract the features from the images using Xception pre-trained model and encode the captions using Keras tokenizer class to train the model.
 - in testing we will feed the model with the feature of the test image and a starting word to generate the second word and this process will repeat recursively to generate the full description caption.     
     # Steps of the project:
